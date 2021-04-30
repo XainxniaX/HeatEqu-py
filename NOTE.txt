@@ -1,0 +1,6 @@
+RUN main.py for the "current" example of it working. should produce output similar to ex3...
+
+If you want it to run quietly change the sim2D.RunTo(quiet=false) to => sim2D.RunTo(quiet=true) in main.py
+
+Run time for me with tfinal=3 seconds and tRate=500 was about 56 seconds on quiet=false
+and about 54 seconds with quiet = true.
